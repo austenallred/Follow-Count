@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F90C91771A748C7500195BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91761A748C7500195BDA /* AppDelegate.swift */; };
-		F90C91791A748C7500195BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91781A748C7500195BDA /* ViewController.swift */; };
 		F90C917C1A748C7500195BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90C917A1A748C7500195BDA /* Main.storyboard */; };
 		F90C917E1A748C7500195BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90C917D1A748C7500195BDA /* Images.xcassets */; };
 		F90C91811A748C7500195BDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90C917F1A748C7500195BDA /* LaunchScreen.xib */; };
 		F90C918D1A748C7600195BDA /* Follow_CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C918C1A748C7600195BDA /* Follow_CountTests.swift */; };
+		F90C91971A748CB000195BDA /* FollowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91961A748CB000195BDA /* FollowTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		F90C91711A748C7500195BDA /* Follow Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Follow Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90C91751A748C7500195BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90C91761A748C7500195BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F90C91781A748C7500195BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F90C917B1A748C7500195BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F90C917D1A748C7500195BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F90C91801A748C7500195BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F90C91861A748C7500195BDA /* Follow CountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Follow CountTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90C918B1A748C7600195BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90C918C1A748C7600195BDA /* Follow_CountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follow_CountTests.swift; sourceTree = "<group>"; };
+		F90C91961A748CB000195BDA /* FollowTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				F90C91761A748C7500195BDA /* AppDelegate.swift */,
-				F90C91781A748C7500195BDA /* ViewController.swift */,
 				F90C917A1A748C7500195BDA /* Main.storyboard */,
+				F90C91961A748CB000195BDA /* FollowTableViewController.swift */,
 				F90C917D1A748C7500195BDA /* Images.xcassets */,
 				F90C917F1A748C7500195BDA /* LaunchScreen.xib */,
 				F90C91741A748C7500195BDA /* Supporting Files */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90C91791A748C7500195BDA /* ViewController.swift in Sources */,
+				F90C91971A748CB000195BDA /* FollowTableViewController.swift in Sources */,
 				F90C91771A748C7500195BDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
